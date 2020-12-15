@@ -22,9 +22,7 @@ namespace GitSharp.Core.UnitTests.AutoFixture
             this.faker = new Faker<CommitScope>();
             this.faker.CustomInstantiator(f =>
             {
-                string value = f.Random.Words()
-                                       .Replace(' ', '-')
-                                       .ToLower();
+                string value = string.Join('-', f.Random.WordsArray(min: 1, max: 3).Select(s => s.Split(' ').First()));
                 return new CommitScope(value);
             });
         }
