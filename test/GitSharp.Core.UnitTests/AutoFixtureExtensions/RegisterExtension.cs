@@ -2,9 +2,9 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests.AutoFixture
+namespace GitSharp.Core.UnitTests.AutoFixtureExtensions
 {
-    using global::AutoFixture;
+    using AutoFixture;
 
     /// <summary>
     /// Provides extension methods for registration in the AutoFixture library.

@@ -2,7 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests.AutoFixture
+namespace GitSharp.Core.Commits
 {
     using System.Linq;
     using Bogus;
@@ -22,7 +22,7 @@ namespace GitSharp.Core.UnitTests.AutoFixture
             this.faker = new Faker<CommitScope>();
             this.faker.CustomInstantiator(f =>
             {
-                string value = string.Join('-', f.Random.WordsArray(min: 1, max: 3).Select(s => s.Split(' ').First()));
+                string value = string.Join("-", f.Random.WordsArray(min: 1, max: 3).Select(s => s.Split(' ').First().ToLower()));
                 return new CommitScope(value);
             });
         }

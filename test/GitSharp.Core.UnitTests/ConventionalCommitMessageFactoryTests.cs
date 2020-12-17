@@ -5,11 +5,10 @@
 namespace GitSharp.Core.UnitTests
 {
     using System;
+    using AutoFixture;
     using FluentAssertions;
-    using GitSharp.Core.UnitTests.AutoFixture;
-    using global::AutoFixture;
+    using GitSharp.Core.Commits;
     using Xunit;
-    using Xunit.Abstractions;
 
     /// <summary>
     /// Unit tests for the <see cref="ConventionalCommitMessageFactory"/> class.

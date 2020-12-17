@@ -2,12 +2,12 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests
+namespace GitSharp.Core.Commits
 {
     /// <summary>
     /// Base type which all other commit types should extend.
     /// </summary>
-    internal abstract class CommitType
+    public abstract class CommitType
     {
         /// <summary>
         /// Gets the name of the type.

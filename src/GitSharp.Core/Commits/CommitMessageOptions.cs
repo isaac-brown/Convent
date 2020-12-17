@@ -2,12 +2,12 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests
+namespace GitSharp.Core.Commits
 {
     /// <summary>
     /// Represents options to be used when generating commit messages.
     /// </summary>
-    internal class CommitMessageOptions
+    public class CommitMessageOptions
     {
         /// <summary>
         /// Gets a new <see cref="CommitMessageOptions"/> instance which has all flags set to true.

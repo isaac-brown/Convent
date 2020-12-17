@@ -2,12 +2,13 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests.AutoFixture
+namespace GitSharp.Core.UnitTests.Fakers
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Bogus;
+    using GitSharp.Core.Commits;
 
     /// <summary>
     /// Provides test data creation for the <see cref="CommitType"/> class.

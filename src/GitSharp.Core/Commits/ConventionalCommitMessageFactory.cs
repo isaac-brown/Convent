@@ -2,17 +2,17 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests
+namespace GitSharp.Core.Commits
 {
     using System;
     using System.Text;
     using Bogus;
-    using GitSharp.Core.UnitTests.AutoFixture;
+    using GitSharp.Core.Commits;
 
     /// <summary>
     /// Responsible for creating commit messages which conform to the conventional commit specification.
     /// </summary>
-    internal class ConventionalCommitMessageFactory
+    public class ConventionalCommitMessageFactory
     {
         private readonly IFactory<CommitDescription> commitDescriptionFactory;
         private readonly IFactory<CommitScope> commitScopeFactory;
@@ -35,7 +35,7 @@ namespace GitSharp.Core.UnitTests
         /// <exception cref="ArgumentNullException">
         /// If <paramref name="commitType"/> is null.
         /// </exception>
-        internal string CreateCommitMessage(CommitType commitType)
+        public string CreateCommitMessage(CommitType commitType)
         {
             return this.CreateCommitMessage(commitType, CommitMessageOptions.Default);
         }
@@ -49,7 +49,7 @@ namespace GitSharp.Core.UnitTests
         /// <exception cref="ArgumentNullException">
         /// If either <paramref name="commitType"/> or <paramref name="options"/> are null.
         /// </exception>
-        internal string CreateCommitMessage(CommitType commitType, CommitMessageOptions options)
+        public string CreateCommitMessage(CommitType commitType, CommitMessageOptions options)
         {
             if (commitType is null)
             {
