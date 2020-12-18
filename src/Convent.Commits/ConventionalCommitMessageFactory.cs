@@ -84,7 +84,7 @@ namespace Convent.Commits
 
                 if (options.HasIssue && options.HasBreakingChange)
                 {
-                    stringBuilder.Append(" ");
+                    stringBuilder.AppendLine();
                 }
 
                 this.MaybeAppendBreakingChange(options, stringBuilder);
