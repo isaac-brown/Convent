@@ -2,9 +2,9 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Cli
+namespace Convent.Cli
 {
-    using GitSharp.Core.Commits;
+    using Convent.Commits;
 
     /// <summary>
     /// Represents command line options which are shared across all commands.

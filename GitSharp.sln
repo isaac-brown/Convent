@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{787F795E-099C-44DE-8869-2805DCE2BC49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSharp.Cli", "src\GitSharp.Cli\GitSharp.Cli.csproj", "{49231B22-4C06-41C2-AAFA-05D5908F03FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convent.Cli", "src\Convent.Cli\Convent.Cli.csproj", "{49231B22-4C06-41C2-AAFA-05D5908F03FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8520846A-1C2D-472C-B9A6-A2ECD158A96D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSharp.Core.UnitTests", "test\GitSharp.Core.UnitTests\GitSharp.Core.UnitTests.csproj", "{BACA0D1F-6B50-4587-B205-47620EA19F79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convent.Commits.UnitTests", "test\Convent.Commits.UnitTests\Convent.Commits.UnitTests.csproj", "{BACA0D1F-6B50-4587-B205-47620EA19F79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSharp.Core", "src\GitSharp.Core\GitSharp.Core.csproj", "{303A589C-4E28-44AA-9A6D-173811AE33E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convent.Commits", "src\Convent.Commits\Convent.Commits.csproj", "{303A589C-4E28-44AA-9A6D-173811AE33E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

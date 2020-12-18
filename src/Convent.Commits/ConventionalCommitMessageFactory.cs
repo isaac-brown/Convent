@@ -2,12 +2,11 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.Commits
+namespace Convent.Commits
 {
     using System;
     using System.Text;
     using Bogus;
-    using GitSharp.Core.Commits;
 
     /// <summary>
     /// Responsible for creating commit messages which conform to the conventional commit specification.

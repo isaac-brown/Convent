@@ -2,14 +2,14 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Cli
+namespace Convent.Cli
 {
     using System;
     using System.CommandLine;
     using System.CommandLine.Invocation;
     using System.Linq;
     using System.Threading.Tasks;
-    using GitSharp.Core.Commits;
+    using Convent.Commits;
 
     /// <summary>
     /// Entrypoint for the application.

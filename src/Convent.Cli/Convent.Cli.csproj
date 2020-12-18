@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\GitSharp.Core\GitSharp.Core.csproj" />
+    <ProjectReference Include="..\Convent.Commits\Convent.Commits.csproj" />
   </ItemGroup>
   
   <ItemGroup>
@@ -16,6 +16,17 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.0-prerelease</Version>
+    <Authors>Isaac Brown</Authors>
+    <PackageId>Convent.Cli</PackageId>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Command line interface for generating </Description>
+    <Copyright>Isaac Brown</Copyright>
+    <PackageLicenseUrl>License URL</PackageLicenseUrl>
+    <PackageProjectUrl>Project URL</PackageProjectUrl>
+    <RepositoryUrl>Repo URL</RepositoryUrl>
+    <RepositoryType>Convent.Cli</RepositoryType>
+    <PackageTags>Commits,Conventional,Generator,Random</PackageTags>
   </PropertyGroup>
 
 

@@ -1,25 +1,25 @@
-// <copyright file="CommitScope.cs" company="Isaac Brown">
+// <copyright file="CommitDescription.cs" company="Isaac Brown">
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.Commits
+namespace Convent.Commits
 {
     /// <summary>
-    /// Represents the scope of a commit message.
+    /// Represents the description of a commit message.
     /// </summary>
-    internal class CommitScope
+    internal class CommitDescription
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="CommitScope"/> class.
+        /// Initializes a new instance of the <see cref="CommitDescription"/> class.
         /// </summary>
-        /// <param name="value">The value to use as a scope.</param>
-        internal CommitScope(string value)
+        /// <param name="value">The value to use as a description.</param>
+        public CommitDescription(string value)
         {
             this.Value = value;
         }
 
         /// <summary>
-        /// Gets the scope's value.
+        /// Gets the description's value.
         /// </summary>
         public string Value { get; }
 

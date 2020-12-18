@@ -2,7 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core
+namespace Convent.Commits
 {
     /// <summary>
     /// Represents a factory for creating <typeparamref name="T"/> instances.

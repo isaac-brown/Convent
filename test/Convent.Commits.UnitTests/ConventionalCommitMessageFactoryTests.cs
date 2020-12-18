@@ -2,12 +2,12 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace GitSharp.Core.UnitTests
+namespace Convent.Commits.UnitTests
 {
     using System;
     using AutoFixture;
+    using Convent.Commits;
     using FluentAssertions;
-    using GitSharp.Core.Commits;
     using Xunit;
 
     /// <summary>
@@ -18,7 +18,7 @@ namespace GitSharp.Core.UnitTests
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 #pragma warning disable SA1600 // Elements must be documented
 
-        private const string Scope = @"\([\w\d-]+\)";
+        private const string Scope = @"\([a-z\d-]+\)";
         private const string Description = ".+";
         private const string Issue = @"Closes #\d+";
         private const string NewLine = @"(\r|\n|\r\n)";
@@ -30,7 +30,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_no_commit_message_options_When_CreateCommitMessage_is_called_Then_should_include_type_and_description()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
 
             var sut = fixture.Create<ConventionalCommitMessageFactory>();
@@ -64,7 +64,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_commit_message_options_is_null_When_CreateCommitMessage_is_called_Then_should_throw_ArgumentNullException()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
 
             var sut = fixture.Create<ConventionalCommitMessageFactory>();
@@ -82,7 +82,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_commit_message_options_has_scope_When_CreateCommitMessage_is_called_Then_result_should_include_type_scope_and_description()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
             var options = new CommitMessageOptions
             {
@@ -103,7 +103,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_commit_message_options_has_body_When_CreateCommitMessage_is_called_Then_result_should_include_type_and_body()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
             var options = new CommitMessageOptions
             {
@@ -125,7 +125,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_commit_message_options_has_issue_When_CreateCommitMessage_is_called_Then_result_should_include_type_and_issue()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
             var options = new CommitMessageOptions
             {
@@ -147,7 +147,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_commit_message_options_has_breaking_change_When_CreateCommitMessage_is_called_Then_result_should_include_type_and_breaking_change()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
             var options = new CommitMessageOptions
             {
@@ -169,7 +169,7 @@ namespace GitSharp.Core.UnitTests
         public void Given_all_commit_message_options_When_CreateFeature_Then()
         {
             // Arrange.
-            IFixture fixture = new Fixture().Customize(new DomainCustomization());
+            IFixture fixture = new Fixture().Customize(new ConventCommitsCustomization());
             var commitType = fixture.Create<CommitType>();
             var options = CommitMessageOptions.All;
 
