@@ -27,21 +27,25 @@ namespace Convent.Commits
 
         /// <summary>
         /// Gets or sets a value indicating whether or not a scope should be included in a commit message.
+        /// Default is false.
         /// </summary>
         public bool HasScope { get; set; } = false;
 
         /// <summary>
         /// Gets or sets a value indicating whether or not a scope should be included in a commit message.
+        /// Default is false.
         /// </summary>
         public bool HasBody { get; set; } = false;
 
         /// <summary>
         /// Gets or sets a value indicating whether or not a scope should be included in a commit message.
+        /// Default is false.
         /// </summary>
         public bool HasIssue { get; set; } = false;
 
         /// <summary>
         /// Gets or sets a value indicating whether or not a scope should be included in a commit message.
+        /// Default is false.
         /// </summary>
         public bool HasBreakingChange { get; set; } = false;
 

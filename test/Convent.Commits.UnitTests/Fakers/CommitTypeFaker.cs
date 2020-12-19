@@ -15,12 +15,13 @@ namespace Convent.Commits.UnitTests.Fakers
     /// </summary>
     internal static class CommitTypeFaker
     {
-        // TODO: Look at scanning an assembly for all types implementing CommitType instead of this.
+        // TODO: Look at scanning an assembly for all static members which return CommitType where the class also
+        // extends CommitType instead of this.
         private static readonly IEnumerable<CommitType> CommitTypes = new CommitType[]
         {
-             new FeatureCommitType(),
-             new FixCommitType(),
-             new ChoreCommitType(),
+             CommitType.Feature,
+             CommitType.Fix,
+             CommitType.Chore,
         };
 
         private static readonly Faker<CommitType> Faker;
