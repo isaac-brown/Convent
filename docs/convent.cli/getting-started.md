@@ -1,58 +1,26 @@
 ---
-description: Learn how to get started with the Convent CLI.
+description: Learn how to install convent-cli.
 ---
 
-# Getting started
+# Installation
+
+## Installation
+
+There are many ways to install `convent-cli`  which one you choose will depend on your platform.
+
+### Manual download
+
+You can download one of the executables from the [Convent.Cli releases page on Github](https://github.com/isaac-brown/Convent.Cli/releases) that's appropriate for your platform.
+
+### Powershell gallery
 
 {% hint style="warning" %}
-### This page is still under construction.
+#### Instructions to come once available on powershell gallery.
 {% endhint %}
 
-```bash
-# ==========
-# Get help.
-convent-cli --help
+### Homebrew
 
-
-# =====================
-# Display the version.
-convent-cli --version
-
-
-# =================================
-# Create a feature commit message.
-> convent-cli feature
-
-feat: payment green sensor
-
-
-# =============================
-# Create a fix commit message.
-> convent-cli fix
-
-fix: Kansas down-sized
-
-
-# ===============================
-# Create a chore commit message.
-> convent-cli chore
-
-chore: innovative orchestrator interactions
-
-
-# ===================
-# Providing options.
-$ convent-cli --scope \
->             --body \
->             --issue \
->             --breaking-change
-
-# Or using aliases:
-$ convent-cli -sbi --breaking-change
-
-feat(games): licensed extension RAM
-Tasty New York
-Closes #2733
-BREAKING CHANGE: Music
-```
+{% hint style="warning" %}
+#### Instructions to come once available on homebrew.
+{% endhint %}
 

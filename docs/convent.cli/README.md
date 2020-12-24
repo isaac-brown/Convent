@@ -4,7 +4,7 @@ description: A command line interface (CLI) for working with Convent.
 
 # Convent.Cli
 
-Want to work with Convent in the command line. Well one has been written for you.
+The Convent CLI exposes all features of [Convent.Commits](../convent.commits/) through `convent-cli` an easy to use command line tool. The CLI is a good place to start generating commit messages locally without writing your own wrapper.
 
 ## Resources
 
