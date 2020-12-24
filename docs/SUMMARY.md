@@ -16,5 +16,4 @@
   * [Self-hosting](convent.webapi/self-hosting.md)
   * [API documentation](convent.webapi/api-documentation/README.md)
     * [Commits](convent.webapi/api-documentation/commits.md)
-* [Developer guide](developer-guide.md)
 
