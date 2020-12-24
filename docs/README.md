@@ -14,5 +14,12 @@ Sometimes you might find yourself needing to generate random commit messages whi
 Convent is not intended to create commit messages for use in real projects, you should write those yourself 🙂
 {% endhint %}
 
+## Features
 
+You can use Convent for the following:
+
+* Generate random commit messages which represents:
+  * A new feature
+  * A bug fix
+  * A chore within a codebase.
 
