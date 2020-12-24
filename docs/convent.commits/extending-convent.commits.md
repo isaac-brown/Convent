@@ -16,9 +16,9 @@ If you want to have access to move commit types that is provided by `CommitType`
 2. Add your own static properties which return `CommitType`
 3. Use your implementation.
 
-### Add an additional commit type
+### Add an additional commit type 
 
-Say you want to add your own commit type of `docs` which will represent a commit which relates to documentation for the repository. First, create your own class `CustomCommitType` which extends `CommitType`.
+Say you want to add your own commit type of `docs`  which will represent a commit which relates to documentation for the repository. First, create your own class `CustomCommitType` which extends `CommitType`.
 
 ```csharp
 public class CustomCommitType : CommitType
@@ -35,12 +35,12 @@ Now add your own static property called `Documentation` which will represents ou
 public class CustomCommitType : CommitType
 {
     public static CommitType Documentation => new CustomCommitType(name: "docs");
-
+    
     // ...
 }
 ```
 
-Now you can use `CustomCommitType.Documentation` to create commit messages with the prefix `docs`.
+Now you can use `CustomCommitType.Documentation`  to create commit messages with the prefix `docs`.
 
 ```csharp
 var commitFactory = new ConventionalCommitMessageFactory();

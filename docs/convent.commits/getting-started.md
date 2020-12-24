@@ -8,13 +8,13 @@ First add a reference to the Convent.Commits package in your project.
 
 {% tabs %}
 {% tab title="dotnet cli" %}
-```text
+```
 dotnet add package Convent.Commits
 ```
 {% endtab %}
 
 {% tab title="Package Manager Console" %}
-```text
+```
 Install-Package Convent.Commits
 ```
 {% endtab %}

@@ -4,6 +4,7 @@
 * [Convent.Commits](convent.commits/README.md)
   * [Getting started](convent.commits/getting-started.md)
   * [Extending Convent.Commits](convent.commits/extending-convent.commits.md)
+  * [Local development](convent.commits/local-development.md)
 * [Convent.Cli](convent.cli/README.md)
   * [Installation](convent.cli/getting-started.md)
   * [CLI commands](convent.cli/cli-commands/README.md)
