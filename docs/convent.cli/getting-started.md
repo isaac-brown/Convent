@@ -4,8 +4,6 @@ description: Learn how to install convent-cli.
 
 # Installation
 
-## Installation
-
 There are many ways to install `convent-cli`  which one you choose will depend on your platform.
 
 ### Manual download

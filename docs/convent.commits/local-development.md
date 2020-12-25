@@ -4,7 +4,7 @@ description: Learn how to work with Convent.Commits locally.
 
 # Local development
 
-This guide assumes you want to work with Convent.Commits source code. Maybe you want to see how things tick by running the source yourself, or perhaps you have some nefarious purpose.
+This guide assumes you want to work with the Convent.Commits source code. Maybe you want to see how things tick by running the source yourself, or perhaps you have some other nefarious purpose.
 
 ## Pre-requisites
 
