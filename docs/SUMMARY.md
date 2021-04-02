@@ -16,7 +16,6 @@
       * [convent-cli commit chore](convent.cli/cli-commands/convent-cli-commit/convent-cli-commit-chore.md)
       * [convent-cli-commit feature](convent.cli/cli-commands/convent-cli-commit/convent-cli-commit-feature.md)
       * [convent-cli commit fix](convent.cli/cli-commands/convent-cli-commit/convent-cli-commit-fix.md)
-  * [Publishing Convent.Cli](convent.cli/publishing-convent.cli.md)
 * [Convent.WebApi](convent.webapi/README.md)
   * [Getting started](convent.webapi/getting-started.md)
   * [Self-hosting](convent.webapi/self-hosting.md)
@@ -24,4 +23,5 @@
     * [Commits](convent.webapi/api-documentation/commits.md)
 * [Developing Convent](developing-convent/README.md)
   * [Branching strategy](developing-convent/branching-strategy.md)
+  * [Publishing Convent.Cli](developing-convent/publishing-convent.cli.md)
 
