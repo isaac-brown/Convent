@@ -1,51 +1,30 @@
 ---
-description: Commands for working with commit messages.
+description: Create random commits in a repository.
 ---
 
 # convent-cli commit
 
-The`commit` command \(and it's sub-commands\) provides a set of commands for working with commit messages. At this stage only commit message creation is available.
+## Usage
 
-## Common options
+```text
+convent-cli commit [options] [<path>] [command]
+```
 
-The following options are common across all subcommands of `commit` .
+## Arguments
 
-### --scope
+### path
 
-When `true`, adds a scope element to the commit message.
+The path to the root of the repository which the commit will be applied.
 
-| Type | `boolean` |
-| :--- | :--- |
-| Aliases | `-s` |
-| Position | Named |
-| Default value | `false` |
+## Options
 
-### --body
+Includes all [global options](../#options).
 
-When `true`, adds a body element to the commit message.
+## Commands
 
-| Type | `boolean` |
-| :--- | :--- |
-| Aliases | `-b` |
-| Position | Named |
-| Default value | `false` |
+* [chore](convent-cli-commit-chore.md)
+* [feature](convent-cli-commit-feature.md)
+* [fix](../convent-cli-message/convent-cli-message-fix.md)
 
-### --issue
 
-When `true`, adds an issue element to the commit message.
-
-| Type | `boolean` |
-| :--- | :--- |
-| Aliases | `-i` |
-| Position | Named |
-| Default value | `false` |
-
-### --breaking-change
-
-When `true`, adds a breaking change element to the commit message.
-
-| Type | `boolean` |
-| :--- | :--- |
-| Position | Named |
-| Default value | `false` |
 
