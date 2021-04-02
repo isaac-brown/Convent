@@ -21,5 +21,5 @@ At present publishing involves the following steps:
 
 ## Publish release files to GitHub
 
-1. Copy zip files in `/release` with the correct version number
-2. 
+1. Upload all zip files in `release` directory with the correct version number to the release in GitHub.
+
