@@ -21,6 +21,7 @@
   * [Self-hosting](convent.webapi/self-hosting.md)
   * [API documentation](convent.webapi/api-documentation/README.md)
     * [Commits](convent.webapi/api-documentation/commits.md)
+    * [Health checks](convent.webapi/api-documentation/health-checks.md)
 * [Developing Convent](developing-convent/README.md)
   * [Branching strategy](developing-convent/branching-strategy.md)
   * [Publishing Convent.Cli](developing-convent/publishing-convent.cli.md)
