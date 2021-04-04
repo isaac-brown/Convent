@@ -4,7 +4,7 @@ description: Learn how to check the health status of Convent.WebApi
 
 # Health checks
 
-{% api-method method="get" host="https://convent.io" path="/health" %}
+{% api-method method="get" host="https://convent.io" path="/api/health" %}
 {% api-method-summary %}
 Health
 {% endapi-method-summary %}
