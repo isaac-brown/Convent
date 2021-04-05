@@ -18,7 +18,7 @@ Describes the HTTP method used to request the resource.
 
 ## Example
 
-The following example shows a link which describes the [Create a chore Commit resource](../commits.md#create-a-chore-commit).
+The following example shows a link which describes the [Create a chore Commit resource](../v1/commits.md#create-a-chore-commit).
 
 ```text
 {

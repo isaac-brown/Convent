@@ -1,12 +1,10 @@
 ---
-description: Explore the Convent web API documentation.
+description: Version 1 of the web API.
 ---
 
-# API documentation
+# V1
 
-This chapter contains the current version \(v1\) of the Convent web API documentation.
-
-{% api-method method="get" host="https://convent.io" path="/api" %}
+{% api-method method="get" host="https://convent.io" path="/api/v1" %}
 {% api-method-summary %}
 Get description
 {% endapi-method-summary %}
@@ -28,13 +26,18 @@ Describes the commits resource and it's related resources.
 {
     "_links": [
         {
-            "href": "https://convent.io/api",
+            "href": "https://convent.io/api/v1",
             "rel": "self",
             "method": "GET"
         },
         {
-            "href": "https://convent.io/api/v1",
-            "rel": "version_1",
+            "href": "https://convent.io/api",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "commits",
             "method": "GET"
         }
     ]

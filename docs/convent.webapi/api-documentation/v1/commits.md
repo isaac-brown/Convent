@@ -4,6 +4,65 @@ description: Provides services for working with commit messages.
 
 # Commits
 
+{% api-method method="get" host="https://convent.io" path="/api/v1/commits" %}
+{% api-method-summary %}
+Get description
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Describes the commits resource and it's related resources.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Everything went well.
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "_links": [
+        {
+            "href": "https://convent.io/api/v1",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "self",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/chore",
+            "rel": "create_chore_commit",
+            "method": "POST"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/documentation",
+            "rel": "create_documentation_commit",
+            "method": "POST"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/feature",
+            "rel": "create_feature_commit",
+            "method": "POST"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/fix",
+            "rel": "create_fix_commit",
+            "method": "POST"
+        }
+    ]
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 {% api-method method="post" host="https://convent.io" path="/api/v1/commits/feature" %}
 {% api-method-summary %}
 Create a feature commit
@@ -22,10 +81,6 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="\_links" type="object" required=false %}
-Links related to this resource. See link response model.
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
@@ -126,10 +181,6 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="\_links" type="object" required=false %}
-Links related to this resource. See link response model.
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
@@ -230,10 +281,6 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="\_links" type="object" required=false %}
-Links related to this resource. See link response model.
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
@@ -334,10 +381,6 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="\_links" type="object" required=false %}
-Links related to this resource. See link response model.
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
