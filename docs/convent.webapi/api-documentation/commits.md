@@ -4,8 +4,6 @@ description: Provides services for working with commit messages.
 
 # Commits
 
-
-
 {% api-method method="post" host="https://convent.io" path="/api/v1/commits/feature" %}
 {% api-method-summary %}
 Create a feature commit
@@ -54,7 +52,19 @@ Everything went well.
 
 ```javascript
 {
-    "message": "feat: payment green sensor"
+    "message": "feat: payment green sensor",
+    "_links": [
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/chore",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
 }
 ```
 {% endapi-method-response-example %}
@@ -146,7 +156,19 @@ Everything went well.
 
 ```javascript
 {
-    "message": "fix: Kansas down-sized"
+    "message": "fix: Kansas down-sized",
+    "_links": [
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/fix",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
 }
 ```
 {% endapi-method-response-example %}
@@ -238,8 +260,19 @@ Everything went well.
 
 ```javascript
 {
-    "message": "chore: innovative orchestrator interactions"
+    "message": "chore: Roads Manor",
     "_links": [
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/chore",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
 }
 ```
 {% endapi-method-response-example %}
@@ -283,9 +316,9 @@ The request body was malformed and could not be processed.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://convent.io" path="/api/v1/commits/chore" %}
+{% api-method method="post" host="https://convent.io" path="/api/v1/commits/documentation" %}
 {% api-method-summary %}
-Create a chore commit
+Create a documentation commit
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -331,8 +364,19 @@ Everything went well.
 
 ```javascript
 {
-    "message": "chore: innovative orchestrator interactions"
+    "message": "docs: Soft open-source",
     "_links": [
+        {
+            "href": "https://convent.io/api/v1/commits",
+            "rel": "parent",
+            "method": "GET"
+        },
+        {
+            "href": "https://convent.io/api/v1/commits/documentation",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
 }
 ```
 {% endapi-method-response-example %}
@@ -375,3 +419,4 @@ The request body was malformed and could not be processed.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
