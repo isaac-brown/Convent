@@ -20,6 +20,8 @@
   * [Getting started](convent.webapi/getting-started.md)
   * [Self-hosting](convent.webapi/self-hosting.md)
   * [API documentation](convent.webapi/api-documentation/README.md)
+    * [Shared models](convent.webapi/api-documentation/shared-models/README.md)
+      * [Link response](convent.webapi/api-documentation/shared-models/link-response.md)
     * [Commits](convent.webapi/api-documentation/commits.md)
     * [Health checks](convent.webapi/api-documentation/health-checks.md)
 * [Developing Convent](developing-convent/README.md)

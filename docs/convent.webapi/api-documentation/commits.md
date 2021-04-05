@@ -4,6 +4,8 @@ description: Provides services for working with commit messages.
 
 # Commits
 
+
+
 {% api-method method="post" host="https://convent.io" path="/api/v1/commits/feature" %}
 {% api-method-summary %}
 Create a feature commit
@@ -22,6 +24,10 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="\_links" type="object" required=false %}
+Links related to this resource. See link response model.
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
@@ -110,6 +116,10 @@ Should always be `application/json`.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="\_links" type="object" required=false %}
+Links related to this resource. See link response model.
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
 Indicates whether or not a scope should be included. Default is `false`.
 {% endapi-method-parameter %}
@@ -192,26 +202,30 @@ Creates a chore commit message.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
 Should always be `application/json`.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="\_links" type="object" required=false %}
+Links related to this resource. See link response model.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="hasScope" type="boolean" required=false %}
+Indicates whether or not a scope should be included. Default is `false`.
+{% endapi-method-parameter %}
 
+{% api-method-parameter name="hasBody" type="boolean" required=false %}
+Indicates whether or not a body should be included. Default is `false`.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="hasIssue" type="boolean" required=false %}
+Indicates whether or not an issue should be included. Default is `false`.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="hasBreakingChange" type="boolean" required=false %}
+Indicates whether or not a breaking change should be included. Default is `false`.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -225,6 +239,7 @@ Everything went well.
 ```javascript
 {
     "message": "chore: innovative orchestrator interactions"
+    "_links": [
 }
 ```
 {% endapi-method-response-example %}
