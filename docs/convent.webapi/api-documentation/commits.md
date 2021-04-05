@@ -294,48 +294,47 @@ Creates a chore commit message.
 
 {% api-method-spec %}
 {% api-method-request %}
-    {% api-method-headers %}
-        {% api-method-parameter name="Content-Type" type="string" required=false %}
-            Should always be `application/json`.
-        {% endapi-method-parameter %}
-    {% endapi-method-headers %}
+{% api-method-headers %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
+Should always be `application/json`.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 
-    {% api-method-body-parameters %}
-        {% api-method-parameter name="\_links" type="object" required=false %}
-            Links related to this resource. See link response model.
-        {% endapi-method-parameter %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="\_links" type="object" required=false %}
+Links related to this resource. See link response model.
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="hasScope" type="boolean" required=false %}
-            Indicates whether or not a scope should be included. Default is `false`.
-        {% endapi-method-parameter %}
+{% api-method-parameter name="hasScope" type="boolean" required=false %}
+Indicates whether or not a scope should be included. Default is `false`.
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="hasBody" type="boolean" required=false %}
-            Indicates whether or not a body should be included. Default is `false`.
-        {% endapi-method-parameter %}
+{% api-method-parameter name="hasBody" type="boolean" required=false %}
+Indicates whether or not a body should be included. Default is `false`.
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="hasIssue" type="boolean" required=false %}
-            Indicates whether or not an issue should be included. Default is `false`.
-        {% endapi-method-parameter %}
+{% api-method-parameter name="hasIssue" type="boolean" required=false %}
+Indicates whether or not an issue should be included. Default is `false`.
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="hasBreakingChange" type="boolean" required=false %}
-            Indicates whether or not a breaking change should be included. Default is `false`.
-        {% endapi-method-parameter %}
-    {% endapi-method-body-parameters %}
+{% api-method-parameter name="hasBreakingChange" type="boolean" required=false %}
+Indicates whether or not a breaking change should be included. Default is `false`.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
-
 {% api-method-response-example httpCode=200 %}
-    {% api-method-response-example-description %}
-    Everything went well.
-    {% endapi-method-response-example-description %}
+{% api-method-response-example-description %}
+Everything went well.
+{% endapi-method-response-example-description %}
 
-    ```javascript
-    {
-        "message": "chore: innovative orchestrator interactions"
-        "_links": [
-    }
-    ```
+```javascript
+{
+    "message": "chore: innovative orchestrator interactions"
+    "_links": [
+}
+```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
@@ -347,11 +346,11 @@ The request body was malformed and could not be processed.
 {% tab title="Missing body" %}
 ```javascript
 {
-"type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
-"title": "One or more validation errors occurred.",
-"status": 400,
-"traceId": "|b78e5747-4cc31f6e3e296139.",
-"errors": { "": ["A non-empty request body is required."] }
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "traceId": "|b78e5747-4cc31f6e3e296139.",
+  "errors": { "": ["A non-empty request body is required."] }
 }
 ```
 {% endtab %}
@@ -359,15 +358,15 @@ The request body was malformed and could not be processed.
 {% tab title="Malformed body" %}
 ```javascript
 {
-"type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
-"title": "One or more validation errors occurred.",
-"status": 400,
-"traceId": "|b78e5749-4cc31f6e3e296139.",
-"errors": {
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "traceId": "|b78e5749-4cc31f6e3e296139.",
+  "errors": {
     "$.hasScope": [
-    "The JSON value could not be converted to System.Boolean. Path: $.hasScope | LineNumber: 0 | BytePositionInLine: 27."
+      "The JSON value could not be converted to System.Boolean. Path: $.hasScope | LineNumber: 0 | BytePositionInLine: 27."
     ]
-}
+  }
 }
 ```
 {% endtab %}
@@ -376,4 +375,3 @@ The request body was malformed and could not be processed.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
