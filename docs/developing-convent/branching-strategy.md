@@ -24,12 +24,6 @@ description: Learn about the branching strategy employed across Convent reposito
 3. `master` merge with `feature` \(squash\)
 4. `feature` delete
 
-{% tabs %}
-{% tab %}
-
-{% endtab %}
-{% endtabs %}
-
 ## fix branches
 
 * Where unfinished fixes live
