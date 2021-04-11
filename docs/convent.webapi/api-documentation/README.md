@@ -12,7 +12,7 @@ Get description
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Describes the commits resource and it's related resources.
+Describes the API resource and it's related resources.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -21,7 +21,7 @@ Describes the commits resource and it's related resources.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Describes this resource and related resources.
 {% endapi-method-response-example-description %}
 
 ```javascript
