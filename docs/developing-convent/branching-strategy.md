@@ -24,11 +24,19 @@ description: Learn about the branching strategy employed across Convent reposito
 3. `master` merge with `feature` \(squash\)
 4. `feature` delete
 
+{% tabs %}
+{% tab %}
+
+{% endtab %}
+{% endtabs %}
+
 ## fix branches
 
 * Where unfinished fixes live
 * Format `fix/{name of fix|issue no}` for example `fix/faulty-widget` or `fix/issue-123`
 * Fix branches can be merged into release or develop branch\(es\)
+
+
 
 ### Lifecycle
 

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="iso-8859-1"?><svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="473.859375" height="553.5">
+    <g transform="translate(10, 10)">
+        <g>
+            <path d="M 0 480 C 0 440 0 440 0 400 L 0 320 L 0 240 L 0 160 L 0 80 C 0 40 0 40 0 0" fill="none"
+                stroke="#979797" stroke-width="10" transform="translate(14, 14)" data-darkreader-inline-fill=""
+                data-darkreader-inline-stroke=""
+                style="--darkreader-inline-fill:none; --darkreader-inline-stroke:#847f78;"></path>
+            <path d="M 0 320 C 0 280 50 280 50 240 C 50 200 50 200 50 160" fill="none" stroke="#008fb5"
+                stroke-width="10" transform="translate(14, 14)" data-darkreader-inline-fill=""
+                data-darkreader-inline-stroke=""
+                style="--darkreader-inline-fill:none; --darkreader-inline-stroke:#50aac2;"></path>
+        </g>
+        <g>
+            <g transform="translate(0, 480)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae" fill="#979797"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#847f78;"></circle>
+                        <clipPath id="clip-c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae">
+                            <use href="#c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae"
+                                xlink:href="#c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae"
+                        xlink:href="#c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae"
+                        clip-path="url(#clip-c5dc76d9ec1252fb49dc64b7b88a536f02cf28ae)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(0, 0)">
+                    <g transform="translate(100, 14)"><text alignment-baseline="central" dominant-baseline="central"
+                            fill="#979797" style="font: 14pt Arial; --darkreader-inline-fill:#847f78;"
+                            data-darkreader-inline-fill="">chore: initial commit</text></g>
+                </g>
+            </g>
+            <g transform="translate(0, 400)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="ea44a0c68946c6a96e94db4a35d664aed214cfeb" fill="#979797"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#847f78;"></circle>
+                        <clipPath id="clip-ea44a0c68946c6a96e94db4a35d664aed214cfeb">
+                            <use href="#ea44a0c68946c6a96e94db4a35d664aed214cfeb"
+                                xlink:href="#ea44a0c68946c6a96e94db4a35d664aed214cfeb"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#ea44a0c68946c6a96e94db4a35d664aed214cfeb"
+                        xlink:href="#ea44a0c68946c6a96e94db4a35d664aed214cfeb"
+                        clip-path="url(#clip-ea44a0c68946c6a96e94db4a35d664aed214cfeb)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(0, 0)">
+                    <g transform="translate(100, 14)"><text alignment-baseline="central" dominant-baseline="central"
+                            fill="#979797" style="font: 14pt Arial; --darkreader-inline-fill:#847f78;"
+                            data-darkreader-inline-fill="">feat: cool stuff</text></g>
+                </g>
+            </g>
+            <g transform="translate(0, 320)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="d4a32276050f5e9f138d8c978f4ce60ae425e7ae" fill="#979797"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#847f78;"></circle>
+                        <clipPath id="clip-d4a32276050f5e9f138d8c978f4ce60ae425e7ae">
+                            <use href="#d4a32276050f5e9f138d8c978f4ce60ae425e7ae"
+                                xlink:href="#d4a32276050f5e9f138d8c978f4ce60ae425e7ae"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#d4a32276050f5e9f138d8c978f4ce60ae425e7ae"
+                        xlink:href="#d4a32276050f5e9f138d8c978f4ce60ae425e7ae"
+                        clip-path="url(#clip-d4a32276050f5e9f138d8c978f4ce60ae425e7ae)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(0, 0)">
+                    <g transform="translate(193.84375, 14)"><text alignment-baseline="central"
+                            dominant-baseline="central" fill="#979797"
+                            style="font: 14pt Arial; --darkreader-inline-fill:#847f78;"
+                            data-darkreader-inline-fill="">chore(release): 1.0.0</text></g>
+                    <g transform="translate(100, 14)" data-offset="12">
+                        <g>
+                            <path
+                                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 73.84375 Q 83.84375,15.5 83.84375,5.5 V -5.5 Q 83.84375,-15.5 73.84375,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                                fill="#979797" stroke="#979797" data-darkreader-inline-fill=""
+                                data-darkreader-inline-stroke=""
+                                style="--darkreader-inline-fill:#847f78; --darkreader-inline-stroke:#847f78;"></path>
+                            <text alignment-baseline="central" dominant-baseline="central" fill="white"
+                                style="font: 14pt Arial; --darkreader-inline-fill:#b9b8b6;" x="22" y="0"
+                                data-darkreader-inline-fill="">v1.0.0</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(50, 240)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1" fill="#008fb5"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#50aac2;"></circle>
+                        <clipPath id="clip-68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1">
+                            <use href="#68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1"
+                                xlink:href="#68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1"
+                        xlink:href="#68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1"
+                        clip-path="url(#clip-68c32a004625f1c0f6fd58e26a647fe6c7dbb5f1)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(-50, 0)">
+                    <g transform="translate(100, 14)"><text alignment-baseline="central" dominant-baseline="central"
+                            fill="#008fb5" style="font: 14pt Arial; --darkreader-inline-fill:#50aac2;"
+                            data-darkreader-inline-fill="">feat: something</text></g>
+                </g>
+            </g>
+            <g transform="translate(50, 160)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="db5aec099edf5023107d10b117a30939bb65f1aa" fill="#008fb5"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#50aac2;"></circle>
+                        <clipPath id="clip-db5aec099edf5023107d10b117a30939bb65f1aa">
+                            <use href="#db5aec099edf5023107d10b117a30939bb65f1aa"
+                                xlink:href="#db5aec099edf5023107d10b117a30939bb65f1aa"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#db5aec099edf5023107d10b117a30939bb65f1aa"
+                        xlink:href="#db5aec099edf5023107d10b117a30939bb65f1aa"
+                        clip-path="url(#clip-db5aec099edf5023107d10b117a30939bb65f1aa)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(-50, 0)">
+                    <g transform="translate(225.046875, 14)"><text alignment-baseline="central"
+                            dominant-baseline="central" fill="#008fb5"
+                            style="font: 14pt Arial; --darkreader-inline-fill:#50aac2;"
+                            data-darkreader-inline-fill="">chore: ...</text></g>
+                    <g transform="translate(100, 0)">
+                        <g>
+                            <rect width="115.046875" height="31" rx="10" fill="white" stroke="#008fb5"
+                                data-darkreader-inline-fill="" data-darkreader-inline-stroke=""
+                                style="--darkreader-inline-fill:#b9b8b6; --darkreader-inline-stroke:#50aac2;"></rect>
+                            <text alignment-baseline="central" dominant-baseline="central" fill="#008fb5"
+                                style="font: 14pt Arial; --darkreader-inline-fill:#50aac2;" x="10" y="15.5"
+                                data-darkreader-inline-fill="">feature/abc</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(0, 80)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="b3735f53ed7b2f94d50050f556388395b28fcec6" fill="#979797"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#847f78;"></circle>
+                        <clipPath id="clip-b3735f53ed7b2f94d50050f556388395b28fcec6">
+                            <use href="#b3735f53ed7b2f94d50050f556388395b28fcec6"
+                                xlink:href="#b3735f53ed7b2f94d50050f556388395b28fcec6"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#b3735f53ed7b2f94d50050f556388395b28fcec6"
+                        xlink:href="#b3735f53ed7b2f94d50050f556388395b28fcec6"
+                        clip-path="url(#clip-b3735f53ed7b2f94d50050f556388395b28fcec6)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(0, 0)">
+                    <g transform="translate(100, 14)"><text alignment-baseline="central" dominant-baseline="central"
+                            fill="#979797" style="font: 14pt Arial; --darkreader-inline-fill:#847f78;"
+                            data-darkreader-inline-fill="">feat: something else</text></g>
+                </g>
+            </g>
+            <g transform="translate(0, 0)">
+                <g>
+                    <defs>
+                        <circle cx="14" cy="14" r="14" id="6908cfe3ed046053538f319ea1cf39512c422ec8" fill="#979797"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#847f78;"></circle>
+                        <clipPath id="clip-6908cfe3ed046053538f319ea1cf39512c422ec8">
+                            <use href="#6908cfe3ed046053538f319ea1cf39512c422ec8"
+                                xlink:href="#6908cfe3ed046053538f319ea1cf39512c422ec8"></use>
+                        </clipPath>
+                    </defs>
+                    <use href="#6908cfe3ed046053538f319ea1cf39512c422ec8"
+                        xlink:href="#6908cfe3ed046053538f319ea1cf39512c422ec8"
+                        clip-path="url(#clip-6908cfe3ed046053538f319ea1cf39512c422ec8)" stroke="" stroke-width="0">
+                    </use>
+                </g>
+                <g transform="translate(0, 0)">
+                    <g transform="translate(281.671875, 14)"><text alignment-baseline="central"
+                            dominant-baseline="central" fill="#979797"
+                            style="font: 14pt Arial; --darkreader-inline-fill:#847f78;"
+                            data-darkreader-inline-fill="">chore(release): 1.1.0</text></g>
+                    <g transform="translate(100, 0)">
+                        <g>
+                            <rect width="77.828125" height="31" rx="10" fill="white" stroke="#979797"
+                                data-darkreader-inline-fill="" data-darkreader-inline-stroke=""
+                                style="--darkreader-inline-fill:#b9b8b6; --darkreader-inline-stroke:#847f78;"></rect>
+                            <text alignment-baseline="central" dominant-baseline="central" fill="#979797"
+                                style="font: 14pt Arial; --darkreader-inline-fill:#847f78;" x="10" y="15.5"
+                                data-darkreader-inline-fill="">master</text>
+                        </g>
+                    </g>
+                    <g transform="translate(187.828125, 14)" data-offset="12">
+                        <g>
+                            <path
+                                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 73.84375 Q 83.84375,15.5 83.84375,5.5 V -5.5 Q 83.84375,-15.5 73.84375,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                                fill="#979797" stroke="#979797" data-darkreader-inline-fill=""
+                                data-darkreader-inline-stroke=""
+                                style="--darkreader-inline-fill:#847f78; --darkreader-inline-stroke:#847f78;"></path>
+                            <text alignment-baseline="central" dominant-baseline="central" fill="white"
+                                style="font: 14pt Arial; --darkreader-inline-fill:#b9b8b6;" x="22" y="0"
+                                data-darkreader-inline-fill="">v1.1.0</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

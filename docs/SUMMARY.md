@@ -25,6 +25,7 @@
     * [V1](convent.webapi/api-documentation/v1/README.md)
       * [Commits](convent.webapi/api-documentation/v1/commits.md)
     * [Health checks](convent.webapi/api-documentation/health-checks.md)
+    * [Version](convent.webapi/api-documentation/version.md)
 * [Developing Convent](developing-convent/README.md)
   * [Branching strategy](developing-convent/branching-strategy.md)
   * [Publishing Convent.Cli](developing-convent/publishing-convent.cli.md)
